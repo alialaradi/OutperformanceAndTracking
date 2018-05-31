@@ -10,6 +10,6 @@ The simulation module generates simulated paths for the market model and impleme
 
 The portfolio analysis module computes performance metrics for a given simulation run. 
 
-The figures found in the paper are generated using the plotScript.m script and the simulations given in simulatedPortfolios.mat.
+The figures found in the paper are generated using the plotScript.m script. This requires first running the simulation and portfolio analysis modules in main_script.m to create simulatedPortfolios.mat.
 
 The data used in this paper is Fama-French industry-level data which can be found in data\industryReturns.mat. The original data can be obtained from: http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
